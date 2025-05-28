@@ -18,7 +18,7 @@ API REST desenvolvida em Java com Spring Boot para processar transações e forn
 
 Este projeto segue os seguintes requisitos e restrições:
 
-- ✅ Criado com Java ou Kotlin e Spring Boot
+- ✅ Criado com Java e Spring Boot
 - ✅ Armazena os dados **em memória** (sem banco de dados ou cache externos)
 - ✅ Aceita e responde apenas com **JSON**
 - ✅ Todos os endpoints definidos e funcionando conforme o escopo
