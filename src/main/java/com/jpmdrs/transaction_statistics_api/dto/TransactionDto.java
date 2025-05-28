@@ -1,6 +1,5 @@
 package com.jpmdrs.transaction_statistics_api.dto;
 
-import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotNull;
 
 import java.time.OffsetDateTime;
@@ -8,7 +7,6 @@ import java.time.OffsetDateTime;
 public class TransactionDto {
 
     @NotNull
-    @Min(0)
     private Double valor;
 
     @NotNull
